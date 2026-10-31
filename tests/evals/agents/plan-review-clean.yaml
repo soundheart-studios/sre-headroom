@@ -1,0 +1,10 @@
+id: agents-plan-review-clean
+skill: agents
+cwd: demos/payments-platform
+kinds:
+- subagent
+prompt: Review fixtures/plan-clean.json before apply.
+expect:
+  subagent: plan-reviewer
+  regex:
+  - \bapprove\b

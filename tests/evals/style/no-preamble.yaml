@@ -1,0 +1,12 @@
+id: style-no-preamble
+skill: _style
+cwd: demos/payments-platform
+kinds:
+- shape
+prompt: How do I see why the last order-api rollout in payments failed?
+expect:
+  max_prose_lines: 5
+  not_regex:
+  - ^(Sure|Great|Certainly|Let me)
+  regex:
+  - kubectl

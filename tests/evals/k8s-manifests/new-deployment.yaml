@@ -1,0 +1,25 @@
+id: k8s-manifests-new-deployment
+skill: k8s-manifests
+cwd: demos/payments-platform
+kinds:
+- routing
+- shape
+prompt: 'Add manifests for a new refund-api service: image 123456789012.dkr.ecr.eu-west-1.amazonaws.com/refund-api:1.0.0, port 8080, 2 replicas, health on /healthz.'
+expect:
+  routes_to: k8s-manifests
+  file_contains:
+    deploy/base/*.yaml:
+    - refund-api
+    - readinessProbe
+    - PodDisruptionBudget
+    - runAsNonRoot:\s*true
+    - readOnlyRootFilesystem:\s*true
+    deploy/base/kustomization.yaml:
+    - refund
+  file_absent:
+  - '**/Chart.yaml'
+  regex:
+  - kubectl .*diff -k
+  - \(per ADR-[G0-9-]+\)
+  contains:
+  - 'Verify:'

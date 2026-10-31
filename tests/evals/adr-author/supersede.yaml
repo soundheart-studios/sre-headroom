@@ -1,0 +1,16 @@
+id: adr-author-supersede
+skill: adr-author
+cwd: demos/inventory-svc
+kinds:
+- routing
+- shape
+prompt: 'Partners finished moving to CloudFront URLs. Draft an ADR that supersedes 0001: the product images bucket becomes private behind CloudFront OAC.'
+expect:
+  routes_to: adr-author
+  file_contains:
+    docs/adr/0004-*.md:
+    - supersedes:\s*\[\s*\"?0001
+    - status:\s*proposed
+    docs/adr/0001-*.md:
+    - superseded_by:\s*\"?0004
+    - status:\s*accepted

@@ -1,0 +1,12 @@
+id: incident-debug-rollout-stuck
+skill: incident-debug
+cwd: demos/payments-platform
+kinds:
+- routing
+prompt: 'kubectl -n payments rollout status deploy/order-api says: error: deployment "order-api" exceeded its progress deadline. What do I check?'
+expect:
+  routes_to: incident-debug
+  not_routes_to:
+  - k8s-manifests
+  contains:
+  - 'Likely cause:'

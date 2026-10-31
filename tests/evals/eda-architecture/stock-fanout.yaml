@@ -1,0 +1,22 @@
+id: eda-architecture-stock-fanout
+skill: eda-architecture
+cwd: demos/inventory-svc
+kinds:
+- routing
+- shape
+prompt: Stock changes need to reach search, pricing, and analytics. What architecture should we use?
+expect:
+  routes_to: eda-architecture
+  contains:
+  - Delivery semantics
+  - Idempotency
+  - Ordering
+  - DLQ
+  - Backpressure
+  - Replay
+  - Schema evolution
+  - outage
+  regex:
+  - G-0005
+  not_regex:
+  - per ADR-0002

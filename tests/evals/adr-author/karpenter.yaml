@@ -1,0 +1,10 @@
+id: adr-author-karpenter
+skill: adr-author
+cwd: demos/payments-platform
+kinds:
+- routing
+prompt: Record the decision that payments node capacity comes from Karpenter instead of EKS managed node groups.
+expect:
+  routes_to: adr-author
+  file_exists:
+  - docs/adr/0004-*.md

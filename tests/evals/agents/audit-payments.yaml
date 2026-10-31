@@ -1,0 +1,18 @@
+id: agents-audit-payments
+skill: agents
+cwd: demos/payments-platform
+kinds:
+- subagent
+prompt: Audit this repo against our ADRs.
+expect:
+  subagent: adr-auditor
+  regex:
+  - ledger-worker
+  - receipts
+  - s3:\*
+  - G-0003
+  - G-0001
+  - G-0007
+  no_tool:
+  - Edit
+  - Write

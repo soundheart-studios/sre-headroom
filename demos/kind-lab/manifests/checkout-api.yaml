@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: {name: checkout-api, namespace: shop}
+data:
+  DB_URL: "postgres://checkout@db.shop.svc:5432/checkout"   # renamed from DATABASE_URL in last release
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata: {name: checkout-api, namespace: shop, labels: {app: checkout-api}}
+spec:
+  replicas: 2
+  selector: {matchLabels: {app: checkout-api}}
+  template:
+    metadata: {labels: {app: checkout-api}}
+    spec:
+      containers:
+        - name: api
+          image: busybox:1.36
+          envFrom: [{configMapRef: {name: checkout-api}}]
+          command: ["sh", "-c"]
+          args:
+            - |
+              echo '{"level":"info","msg":"checkout-api 3.2.0 starting"}'
+              if [ -z "$DATABASE_URL" ]; then
+                echo '{"level":"fatal","msg":"config error: required env DATABASE_URL is not set"}'; exit 1
+              fi
+              sleep 3600

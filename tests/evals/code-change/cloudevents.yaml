@@ -1,0 +1,15 @@
+id: code-change-cloudevents
+skill: code-change
+cwd: demos/payments-platform
+kinds:
+- routing
+- adr-conflict
+prompt: Add an event_type field to the order-created payload in app/publisher.py.
+expect:
+  routes_to: code-change
+  regex:
+  - G-0005
+  file_contains:
+    app/publisher.py:
+    - specversion
+    - com\.[a-z]+\.order\.created\.v1

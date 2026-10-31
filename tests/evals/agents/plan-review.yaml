@@ -1,0 +1,17 @@
+id: agents-plan-review
+skill: agents
+cwd: demos/payments-platform
+kinds:
+- subagent
+prompt: Review fixtures/plan-replace.json before we apply it.
+expect:
+  subagent: plan-reviewer
+  regex:
+  - \bblock\b
+  - aws_db_instance\.ledger
+  - G-0007
+  ran_script:
+  - plan-summary
+  no_tool:
+  - Edit
+  - Write

@@ -1,0 +1,15 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: {name: ledger-worker, namespace: shop, labels: {app: ledger-worker}}
+spec:
+  replicas: 1
+  selector: {matchLabels: {app: ledger-worker}}
+  template:
+    metadata: {labels: {app: ledger-worker}}
+    spec:
+      containers:
+        - name: worker
+          image: busybox:1.36
+          command: ["sh", "-c", "while true; do cat /logs/ledger-worker.log; sleep 30; done"]
+          volumeMounts: [{name: logs, mountPath: /logs}]
+      volumes: [{name: logs, configMap: {name: ledger-logs}}]

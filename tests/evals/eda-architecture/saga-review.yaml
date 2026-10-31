@@ -1,0 +1,13 @@
+id: eda-architecture-saga-review
+skill: eda-architecture
+cwd: demos/payments-platform
+kinds:
+- routing
+prompt: 'Review this: order-api calls payment-api over REST, then inventory over REST; if inventory fails we call payment-api /refund. Is this a sound saga?'
+expect:
+  routes_to: eda-architecture
+  contains_any:
+  - - outbox
+    - orchestrat
+  not_routes_to:
+  - code-change

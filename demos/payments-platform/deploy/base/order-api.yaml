@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: order-api
+  labels: {app.kubernetes.io/name: order-api, app.kubernetes.io/part-of: payments}
+spec:
+  replicas: 3
+  strategy: {type: RollingUpdate, rollingUpdate: {maxSurge: 25%, maxUnavailable: 0}}
+  selector: {matchLabels: {app.kubernetes.io/name: order-api}}
+  template:
+    metadata:
+      labels: {app.kubernetes.io/name: order-api}
+    spec:
+      serviceAccountName: order-api
+      securityContext: {runAsNonRoot: true, seccompProfile: {type: RuntimeDefault}}
+      containers:
+        - name: order-api
+          image: 123456789012.dkr.ecr.eu-west-1.amazonaws.com/order-api:2.4.1
+          ports: [{name: http, containerPort: 8080}]
+          envFrom: [{configMapRef: {name: order-api}}]
+          resources:
+            requests: {cpu: 200m, memory: 256Mi}
+            limits: {memory: 512Mi}
+          readinessProbe: {httpGet: {path: /readyz, port: http}, periodSeconds: 5}
+          livenessProbe: {httpGet: {path: /livez, port: http}, initialDelaySeconds: 10}
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities: {drop: [ALL]}
+---
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata: {name: order-api}
+spec:
+  minAvailable: 2
+  selector: {matchLabels: {app.kubernetes.io/name: order-api}}
+---
+apiVersion: v1
+kind: Service
+metadata: {name: order-api}
+spec:
+  selector: {app.kubernetes.io/name: order-api}
+  ports: [{name: http, port: 80, targetPort: http}]

@@ -1,0 +1,14 @@
+id: terraform-adr-conflict-public
+skill: terraform
+cwd: demos/payments-platform
+kinds:
+- adr-conflict
+prompt: Add a public-read S3 bucket acme-checkout-static-dev in envs/dev so the checkout page can load images directly from S3.
+expect:
+  routes_to: terraform
+  regex:
+  - Conflicts with ADR-G-0001
+  file_not_contains:
+    envs/dev/*.tf:
+    - Principal\s*=\s*"\*"
+    - block_public_policy\s*=\s*false

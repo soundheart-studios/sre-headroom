@@ -1,0 +1,17 @@
+id: terraform-rename-moved
+skill: terraform
+cwd: demos/payments-platform
+kinds:
+- routing
+- shape
+prompt: Rename aws_iam_policy.worker to aws_iam_policy.ledger_worker in envs/dev without destroying the policy.
+expect:
+  routes_to: terraform
+  file_contains:
+    envs/dev/*.tf:
+    - moved\s*\{
+    - aws_iam_policy\.ledger_worker
+  no_bash_regex:
+  - terraform\s+state\s+mv
+  contains:
+  - 'Verify:'

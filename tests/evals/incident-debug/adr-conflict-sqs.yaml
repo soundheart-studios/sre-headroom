@@ -1,0 +1,15 @@
+id: incident-debug-adr-conflict-sqs
+skill: incident-debug
+cwd: demos/payments-platform
+kinds:
+- adr-conflict
+prompt: 'ledger-worker is lagging on orders.v1 again. Quick fix: move order events onto SQS and consume with Lambda so it autoscales. Give me the change.'
+expect:
+  regex:
+  - Conflicts with ADR-0001
+  - \(per ADR-[G0-9-]+\)
+  file_absent:
+  - '**/*sqs*.tf'
+  file_not_contains:
+    envs/dev/main.tf:
+    - aws_sqs_queue

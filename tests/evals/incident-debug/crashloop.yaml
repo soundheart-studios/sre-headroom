@@ -1,0 +1,21 @@
+id: incident-debug-crashloop
+skill: incident-debug
+cwd: demos/payments-platform
+kinds:
+- routing
+- shape
+prompt: Pod order-api-7f9c8-xk2lp in namespace payments is in CrashLoopBackOff since the 14:05 deploy. What's wrong and how do I fix it? I don't have the cluster attached to this session.
+expect:
+  routes_to: incident-debug
+  contains:
+  - 'Likely cause:'
+  - 'Confirm:'
+  - -n payments
+  - 'Verify:'
+  not_contains:
+  - There could be several reasons
+  - Great question
+  max_prose_lines: 8
+  no_tool:
+  - Edit
+  - Write

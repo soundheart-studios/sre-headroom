@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(kubectl apply -k deploy/overlays/prod:*)",
+      "Bash(terraform -chdir=envs/prod apply:*)"
+    ]
+  }
+}

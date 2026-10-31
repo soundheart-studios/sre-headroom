@@ -1,0 +1,18 @@
+id: terraform-new-bucket
+skill: terraform
+cwd: demos/payments-platform
+kinds:
+- routing
+- shape
+prompt: Add an S3 bucket for monthly payment statements in dev, using our bucket module.
+expect:
+  routes_to: terraform
+  file_contains:
+    envs/dev/main.tf:
+    - source\s*=\s*"\.\./\.\./modules/s3-bucket"[\s\S]*statement|statement[\s\S]*source\s*=\s*"\.\./\.\./modules/s3-bucket"
+  contains:
+  - 'Verify:'
+  regex:
+  - plan
+  - \(per ADR-[G0-9-]+\)
+  max_prose_lines: 6

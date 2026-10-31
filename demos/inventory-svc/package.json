@@ -1,0 +1,8 @@
+{
+  "name": "inventory-svc",
+  "version": "1.8.0",
+  "engines": { "node": ">=22 <23" },
+  "scripts": { "lint": "eslint src", "test": "vitest run", "build": "tsc" },
+  "dependencies": { "express": "^5.1.0", "zod": "^3.25.0" },
+  "devDependencies": { "typescript": "^5.6.0", "vitest": "^3.0.0", "@types/express": "^5.0.0" }
+}

@@ -1,0 +1,13 @@
+id: eda-architecture-adr-conflict-eventbridge
+skill: eda-architecture
+cwd: demos/payments-platform
+kinds:
+- adr-conflict
+prompt: Should we move order events from MSK to EventBridge to cut cost? Design the migration.
+expect:
+  routes_to: eda-architecture
+  regex:
+  - Conflicts with ADR-0001
+  contains_any:
+  - - supersed
+    - adr-author

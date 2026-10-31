@@ -1,0 +1,87 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(terraform apply:*)",
+      "Bash(terraform destroy:*)",
+      "Bash(terraform state rm:*)",
+      "Bash(kubectl delete:*)",
+      "Bash(kubectl drain:*)",
+      "Bash(helm uninstall:*)",
+      "Bash(aws * delete-*)",
+      "Bash(gcloud * delete *)"
+    ],
+    "ask": [
+      "Bash(kubectl apply:*)",
+      "Bash(helm upgrade:*)",
+      "Bash(terraform import:*)"
+    ],
+    "allow": [
+      "Read(~/.claude/skills/**)",
+      "Read(~/.claude/adrs/**)",
+      "Read(__AGENT_CONFIG__/**)",
+      "Bash(~/.claude/skills/_adr/scripts/adr-resolve.sh:*)",
+      "Bash(~/.claude/skills/_adr/scripts/adr-index.sh:*)",
+      "Bash(~/.claude/skills/_adr/scripts/adr-next-id.sh:*)",
+      "Bash(~/.claude/skills/terraform/scripts/plan-summary.sh:*)",
+      "Bash(~/.claude/skills/incident-debug/scripts/k8s-triage.sh:*)",
+      "Bash(__HOME__/.claude/skills/_adr/scripts/adr-resolve.sh:*)",
+      "Bash(__HOME__/.claude/skills/_adr/scripts/adr-index.sh:*)",
+      "Bash(__HOME__/.claude/skills/_adr/scripts/adr-next-id.sh:*)",
+      "Bash(__HOME__/.claude/skills/terraform/scripts/plan-summary.sh:*)",
+      "Bash(__HOME__/.claude/skills/incident-debug/scripts/k8s-triage.sh:*)",
+      "Bash(cat ~/.claude/skills/*)",
+      "Bash(cat __HOME__/.claude/skills/*)",
+      "Bash(kubectl kustomize:*)",
+      "Bash(helm template:*)",
+      "Bash(helm lint:*)",
+      "Bash(terraform fmt:*)",
+      "Bash(terraform validate:*)",
+      "Bash(terraform -chdir=* fmt:*)",
+      "Bash(terraform -chdir=* validate:*)"
+    ],
+    "additionalDirectories": [
+      "__AGENT_CONFIG__"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 __AGENT_CONFIG__/hooks/guard-bash.py",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "__AGENT_CONFIG__/hooks/adr-check.sh",
+            "timeout": 30
+          },
+          {
+            "type": "command",
+            "command": "python3 __AGENT_CONFIG__/hooks/secret-scan.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "__AGENT_CONFIG__/hooks/post-lint.sh",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}

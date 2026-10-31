@@ -1,0 +1,7 @@
+image:
+  repository: 123456789012.dkr.ecr.us-east-1.amazonaws.com/inventory
+  tag: "1.8.0"
+replicas: 2
+resources:
+  requests: {cpu: 100m, memory: 128Mi}
+  limits: {memory: 256Mi}

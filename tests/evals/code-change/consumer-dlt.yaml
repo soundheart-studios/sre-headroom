@@ -1,0 +1,18 @@
+id: code-change-consumer-dlt
+skill: code-change
+cwd: demos/payments-platform
+kinds:
+- routing
+- shape
+prompt: app/consumer.py swallows errors. Failed messages should go to the dead-letter topic instead of being dropped.
+expect:
+  routes_to: code-change
+  file_contains:
+    app/consumer.py:
+    - dlt
+  file_not_contains:
+    app/consumer.py:
+    - except Exception:\s*\n\s*pass
+  regex:
+  - Verify:.*(make test|pytest)
+  files_changed_max: 3

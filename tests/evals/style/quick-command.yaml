@@ -1,0 +1,14 @@
+id: style-quick-command
+skill: _style
+cwd: demos/payments-platform
+kinds:
+- shape
+prompt: Command to list pods in payments sorted by restart count?
+expect:
+  first_line_regex: kubectl|```
+  max_prose_lines: 2
+  regex:
+  - -n payments
+  not_contains:
+  - Great question
+  - Here's

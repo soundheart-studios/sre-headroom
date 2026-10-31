@@ -1,0 +1,19 @@
+id: adr-author-new-adr
+skill: adr-author
+cwd: demos/payments-platform
+kinds:
+- routing
+- shape
+prompt: 'Write an ADR: we decided payments services use Postgres 16 on RDS with IAM database auth, no static passwords.'
+expect:
+  routes_to: adr-author
+  file_exists:
+  - docs/adr/0004-*.md
+  file_contains:
+    docs/adr/0004-*.md:
+    - status:\s*proposed
+    - id:\s*\"?0004
+    - '## Rules'
+    - '## Exceptions'
+    docs/adr/INDEX.md:
+    - \| 0004 \|

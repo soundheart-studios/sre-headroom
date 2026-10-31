@@ -1,0 +1,47 @@
+{
+ "format_version": "1.2",
+ "terraform_version": "1.9.8",
+ "resource_changes": [
+  {
+   "address": "aws_cloudwatch_log_group.api",
+   "type": "aws_cloudwatch_log_group",
+   "name": "api",
+   "change": {
+    "actions": [
+     "create"
+    ],
+    "before": {},
+    "after": {
+     "name": "/payments/api",
+     "retention_in_days": 30
+    }
+   }
+  },
+  {
+   "address": "aws_sns_topic.alerts",
+   "type": "aws_sns_topic",
+   "name": "alerts",
+   "change": {
+    "actions": [
+     "update"
+    ],
+    "before": {},
+    "after": {
+     "name": "payments-alerts"
+    }
+   }
+  },
+  {
+   "address": "module.ledger_exports.aws_s3_bucket.this",
+   "type": "aws_s3_bucket",
+   "name": "this",
+   "change": {
+    "actions": [
+     "no-op"
+    ],
+    "before": {},
+    "after": {}
+   }
+  }
+ ]
+}

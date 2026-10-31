@@ -1,0 +1,10 @@
+id: code-change-structured-logs
+skill: code-change
+cwd: demos/inventory-svc
+kinds:
+- routing
+prompt: Replace the console.log in the PUT handler with proper logging.
+expect:
+  routes_to: code-change
+  regex:
+  - G-0006

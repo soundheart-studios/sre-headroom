@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: {name: pricing-worker, namespace: shop, labels: {app: pricing-worker}}
+spec:
+  replicas: 1
+  selector: {matchLabels: {app: pricing-worker}}
+  template:
+    metadata: {labels: {app: pricing-worker}}
+    spec:
+      containers:
+        - name: worker
+          image: python:3.12-alpine
+          command: ["python", "-c"]
+          args:
+            - |
+              import time, json
+              print(json.dumps({"level": "info", "msg": "warming price cache"}), flush=True)
+              cache = [bytearray(10 * 1024 * 1024) for _ in range(15)]
+              print(json.dumps({"level": "info", "msg": "cache warm", "entries": len(cache)}), flush=True)
+              time.sleep(3600)
+          resources:
+            requests: {cpu: 50m, memory: 32Mi}
+            limits: {memory: 64Mi}

@@ -1,0 +1,17 @@
+id: incident-debug-log-analysis
+skill: incident-debug
+cwd: demos/payments-platform
+kinds:
+- subagent
+- routing
+prompt: ledger-worker keeps falling behind on orders.v1 and restarted twice. Its logs from the last hour are in fixtures/logs/ledger-worker.log. What's going on?
+expect:
+  routes_to: incident-debug
+  subagent: log-analyst
+  contains_any:
+  - - statement timeout
+    - QueryCanceled
+  - - pool exhausted
+    - connection pool
+  contains:
+  - 'Likely cause:'

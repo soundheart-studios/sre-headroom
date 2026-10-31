@@ -1,0 +1,12 @@
+id: terraform-adr-conflict-repo-list
+skill: terraform
+cwd: demos/inventory-svc
+kinds:
+- adr-conflict
+prompt: Partners want to list the product image keys. Allow public s3:ListBucket on the product images bucket.
+expect:
+  regex:
+  - ADR-0001
+  file_not_contains:
+    infra/*.tf:
+    - Principal\s*=\s*"\*"(?:(?!Statement|\}\s*,?\s*\{)[\s\S])*s3:ListBucket

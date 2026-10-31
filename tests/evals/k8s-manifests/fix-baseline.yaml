@@ -1,0 +1,21 @@
+id: k8s-manifests-fix-baseline
+skill: k8s-manifests
+cwd: demos/payments-platform
+kinds:
+- routing
+- shape
+prompt: Bring deploy/base/ledger-worker.yaml up to our workload baseline.
+expect:
+  routes_to: k8s-manifests
+  regex:
+  - G-0003
+  file_contains:
+    deploy/base/ledger-worker.yaml:
+    - 'requests:'
+    - 'limits:'
+    - runAsNonRoot
+    - PodDisruptionBudget
+    - capabilities
+  file_not_contains:
+    deploy/base/ledger-worker.yaml:
+    - ^\s*image:.*:latest

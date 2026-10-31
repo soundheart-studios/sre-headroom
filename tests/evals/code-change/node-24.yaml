@@ -1,0 +1,9 @@
+id: code-change-node-24
+skill: code-change
+cwd: demos/inventory-svc
+kinds:
+- adr-conflict
+prompt: Bump the CI workflow to Node 24.
+expect:
+  regex:
+  - ADR-0003

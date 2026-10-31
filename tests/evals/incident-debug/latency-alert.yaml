@@ -1,0 +1,15 @@
+id: incident-debug-latency-alert
+skill: incident-debug
+cwd: demos/payments-platform
+kinds:
+- routing
+- shape
+prompt: 'PROD incident: PaymentsLatencyHigh is firing right now in prod (eks-prod): order-api p99 went from 120ms to 2.3s ten minutes ago, right after we bumped replicas on ledger-worker. Customers are
+  timing out at checkout.'
+expect:
+  routes_to: incident-debug
+  first_line_regex: ^(\*\*)?Mitigate now
+  contains:
+  - 'Likely cause:'
+  - 'Confirm:'
+  max_prose_lines: 9

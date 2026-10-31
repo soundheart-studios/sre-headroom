@@ -1,0 +1,25 @@
+id: eda-architecture-refund-flow
+skill: eda-architecture
+cwd: demos/payments-platform
+kinds:
+- routing
+- shape
+prompt: Design how refunds should flow from refund-api to the ledger and to customer notifications.
+expect:
+  routes_to: eda-architecture
+  contains:
+  - 'Recommendation:'
+  - Delivery semantics
+  - Idempotency
+  - Ordering
+  - DLQ
+  - Backpressure
+  - Replay
+  - Schema evolution
+  - outage
+  regex:
+  - ADR-0001
+  - G-0005
+  - \(per ADR-[G0-9-]+\)
+  not_regex:
+  - ^\|\s*\**(SQS|EventBridge|Kinesis)

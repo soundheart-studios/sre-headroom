@@ -1,0 +1,97 @@
+{
+ "format_version": "1.2",
+ "terraform_version": "1.9.8",
+ "resource_changes": [
+  {
+   "address": "aws_db_instance.ledger",
+   "type": "aws_db_instance",
+   "name": "ledger",
+   "change": {
+    "actions": [
+     "delete",
+     "create"
+    ],
+    "before": {},
+    "after": {
+     "identifier": "ledger-dev",
+     "engine_version": "16.4",
+     "storage_encrypted": true
+    }
+   }
+  },
+  {
+   "address": "aws_iam_policy.worker",
+   "type": "aws_iam_policy",
+   "name": "worker",
+   "change": {
+    "actions": [
+     "update"
+    ],
+    "before": {},
+    "after": {
+     "name": "payments-worker-dev",
+     "policy": "{\"Version\": \"2012-10-17\", \"Statement\": [{\"Effect\": \"Allow\", \"Action\": \"s3:*\", \"Resource\": \"*\"}]}"
+    }
+   }
+  },
+  {
+   "address": "aws_security_group_rule.api_ingress",
+   "type": "aws_security_group_rule",
+   "name": "api_ingress",
+   "change": {
+    "actions": [
+     "create"
+    ],
+    "before": {},
+    "after": {
+     "type": "ingress",
+     "from_port": 5432,
+     "to_port": 5432,
+     "protocol": "tcp",
+     "cidr_blocks": [
+      "0.0.0.0/0"
+     ]
+    }
+   }
+  },
+  {
+   "address": "module.ledger_exports.aws_s3_bucket.this",
+   "type": "aws_s3_bucket",
+   "name": "this",
+   "change": {
+    "actions": [
+     "no-op"
+    ],
+    "before": {},
+    "after": {}
+   }
+  },
+  {
+   "address": "aws_s3_bucket.receipts",
+   "type": "aws_s3_bucket",
+   "name": "receipts",
+   "change": {
+    "actions": [
+     "delete"
+    ],
+    "before": {},
+    "after": {}
+   }
+  },
+  {
+   "address": "aws_cloudwatch_log_group.api",
+   "type": "aws_cloudwatch_log_group",
+   "name": "api",
+   "change": {
+    "actions": [
+     "create"
+    ],
+    "before": {},
+    "after": {
+     "name": "/payments/api",
+     "retention_in_days": 30
+    }
+   }
+  }
+ ]
+}

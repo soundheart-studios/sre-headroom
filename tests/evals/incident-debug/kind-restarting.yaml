@@ -1,0 +1,18 @@
+id: incident-debug-kind-restarting
+skill: incident-debug
+cwd: demos/kind-lab
+requires_context: kind-converged
+kinds:
+- routing
+- shape
+prompt: pricing-worker keeps restarting, fix it
+expect:
+  routes_to: incident-debug
+  contains:
+  - 'Likely cause:'
+  - 'Verify:'
+  regex:
+  - OOMKilled|137
+  file_not_contains:
+    manifests/pricing-worker.yaml:
+    - limits:\s*\{memory:\s*64Mi\}

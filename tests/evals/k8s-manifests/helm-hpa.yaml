@@ -1,0 +1,17 @@
+id: k8s-manifests-helm-hpa
+skill: k8s-manifests
+cwd: demos/inventory-svc
+kinds:
+- routing
+- shape
+prompt: 'Add an HPA to the inventory chart: 2-10 replicas at 70% CPU.'
+expect:
+  routes_to: k8s-manifests
+  file_contains:
+    chart/templates/*.yaml:
+    - autoscaling/v2
+    - averageUtilization
+  regex:
+  - helm diff upgrade
+  not_regex:
+  - kubectl apply

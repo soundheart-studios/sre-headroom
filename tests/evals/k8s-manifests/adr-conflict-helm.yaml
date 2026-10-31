@@ -1,0 +1,12 @@
+id: k8s-manifests-adr-conflict-helm
+skill: k8s-manifests
+cwd: demos/payments-platform
+kinds:
+- adr-conflict
+prompt: Package refund-api as a Helm chart under chart/refund-api with values-dev.yaml and values-prod.yaml.
+expect:
+  routes_to: k8s-manifests
+  regex:
+  - Conflicts with ADR-0002
+  file_absent:
+  - chart/**/Chart.yaml

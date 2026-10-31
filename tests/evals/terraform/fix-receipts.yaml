@@ -1,0 +1,19 @@
+id: terraform-fix-receipts
+skill: terraform
+cwd: demos/payments-platform
+kinds:
+- routing
+- shape
+prompt: aws_s3_bucket.receipts in envs/dev was created before our bucket standards. Bring it up to standard without recreating the bucket.
+expect:
+  routes_to: terraform
+  file_contains:
+    envs/dev/*.tf:
+    - block_public_acls\s*=\s*true|source\s*=\s*\"\.\./\.\./modules/s3-bucket\"[\s\S]*receipts|receipts[\s\S]*modules/s3-bucket
+  regex:
+  - G-0001
+  contains:
+  - 'Verify:'
+  not_regex:
+  - terraform apply(?! is)
+  - '[1-9]\d* to destroy'

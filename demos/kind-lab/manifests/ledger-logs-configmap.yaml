@@ -1,0 +1,608 @@
+apiVersion: v1
+data:
+  ledger-worker.log: |
+    {"ts": "2026-10-30T14:00:00.215Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:00.467Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:00.554Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:00.652Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:00.731Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:00.890Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:01.162Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:01.335Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:01.602Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:01.941Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:02.105Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:02.453Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:02.798Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:02.873Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:02.946Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:03.064Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:03.187Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:03.529Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:03.928Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:04.275Z", "service": "ledger-worker", "level": "info", "msg": "consumer started", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:04.421Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9974"}
+    {"ts": "2026-10-30T14:00:04.503Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4374", "duration_ms": 5064}
+    {"ts": "2026-10-30T14:00:04.901Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6146"}
+    {"ts": "2026-10-30T14:00:05.189Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8424", "duration_ms": 5047}
+    {"ts": "2026-10-30T14:00:05.392Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3945"}
+    {"ts": "2026-10-30T14:00:05.566Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5919"}
+    {"ts": "2026-10-30T14:00:05.884Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6627"}
+    {"ts": "2026-10-30T14:00:06.163Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2199"}
+    {"ts": "2026-10-30T14:00:06.273Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3702"}
+    {"ts": "2026-10-30T14:00:06.498Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9011"}
+    {"ts": "2026-10-30T14:00:06.763Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2271"}
+    {"ts": "2026-10-30T14:00:07.098Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6140", "duration_ms": 5044}
+    {"ts": "2026-10-30T14:00:07.327Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8474", "duration_ms": 5009}
+    {"ts": "2026-10-30T14:00:07.424Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:07.716Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2064", "duration_ms": 5008}
+    {"ts": "2026-10-30T14:00:07.924Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8301", "duration_ms": 5037}
+    {"ts": "2026-10-30T14:00:08.171Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 145482, "partition": 0}
+    {"ts": "2026-10-30T14:00:08.457Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2918"}
+    {"ts": "2026-10-30T14:00:08.759Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5709"}
+    {"ts": "2026-10-30T14:00:08.875Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7519", "duration_ms": 5051}
+    {"ts": "2026-10-30T14:00:09.179Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8359"}
+    {"ts": "2026-10-30T14:00:09.434Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3243"}
+    {"ts": "2026-10-30T14:00:09.704Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 136493, "partition": 11}
+    {"ts": "2026-10-30T14:00:09.966Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:00:10.365Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 130245, "partition": 2}
+    {"ts": "2026-10-30T14:00:10.457Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4800"}
+    {"ts": "2026-10-30T14:00:10.844Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8945"}
+    {"ts": "2026-10-30T14:00:11.195Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5619"}
+    {"ts": "2026-10-30T14:00:11.247Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9758"}
+    {"ts": "2026-10-30T14:00:11.486Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6220", "duration_ms": 5017}
+    {"ts": "2026-10-30T14:00:11.799Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:12.184Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1884", "duration_ms": 5059}
+    {"ts": "2026-10-30T14:00:12.582Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7428", "duration_ms": 5051}
+    {"ts": "2026-10-30T14:00:12.836Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8889"}
+    {"ts": "2026-10-30T14:00:13.210Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4122"}
+    {"ts": "2026-10-30T14:00:13.294Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:00:13.569Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6571"}
+    {"ts": "2026-10-30T14:00:13.926Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1003"}
+    {"ts": "2026-10-30T14:00:14.266Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2662"}
+    {"ts": "2026-10-30T14:00:14.502Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2152", "duration_ms": 5027}
+    {"ts": "2026-10-30T14:00:14.866Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5132"}
+    {"ts": "2026-10-30T14:00:15.093Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8768", "duration_ms": 5016}
+    {"ts": "2026-10-30T14:00:15.202Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 161078, "partition": 7}
+    {"ts": "2026-10-30T14:00:15.499Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3361"}
+    {"ts": "2026-10-30T14:00:15.601Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5337", "duration_ms": 5062}
+    {"ts": "2026-10-30T14:00:15.733Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4362"}
+    {"ts": "2026-10-30T14:00:16.053Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9899"}
+    {"ts": "2026-10-30T14:00:16.116Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5883", "duration_ms": 5083}
+    {"ts": "2026-10-30T14:00:16.212Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5278", "duration_ms": 5067}
+    {"ts": "2026-10-30T14:00:16.449Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 146621, "partition": 3}
+    {"ts": "2026-10-30T14:00:16.771Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9236"}
+    {"ts": "2026-10-30T14:00:16.989Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4197", "duration_ms": 5031}
+    {"ts": "2026-10-30T14:00:17.244Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4714", "duration_ms": 5026}
+    {"ts": "2026-10-30T14:00:17.559Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1474"}
+    {"ts": "2026-10-30T14:00:17.623Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8737", "duration_ms": 5034}
+    {"ts": "2026-10-30T14:00:17.772Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6640", "duration_ms": 5058}
+    {"ts": "2026-10-30T14:00:18.000Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:18.236Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2673"}
+    {"ts": "2026-10-30T14:00:18.402Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6533"}
+    {"ts": "2026-10-30T14:00:18.556Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1031"}
+    {"ts": "2026-10-30T14:00:18.851Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 145089, "partition": 10}
+    {"ts": "2026-10-30T14:00:18.944Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 115716, "partition": 6}
+    {"ts": "2026-10-30T14:00:19.096Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3924"}
+    {"ts": "2026-10-30T14:00:19.368Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6447", "duration_ms": 5012}
+    {"ts": "2026-10-30T14:00:19.620Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2391"}
+    {"ts": "2026-10-30T14:00:19.751Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3081"}
+    {"ts": "2026-10-30T14:00:19.815Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8624"}
+    {"ts": "2026-10-30T14:00:20.200Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8771"}
+    {"ts": "2026-10-30T14:00:20.586Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:20.715Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3146"}
+    {"ts": "2026-10-30T14:00:20.775Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2683"}
+    {"ts": "2026-10-30T14:00:21.094Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3281", "duration_ms": 5056}
+    {"ts": "2026-10-30T14:00:21.243Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 127661, "partition": 0}
+    {"ts": "2026-10-30T14:00:21.421Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9211"}
+    {"ts": "2026-10-30T14:00:21.594Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6341", "duration_ms": 5034}
+    {"ts": "2026-10-30T14:00:21.922Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3147"}
+    {"ts": "2026-10-30T14:00:22.003Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 146371, "partition": 7}
+    {"ts": "2026-10-30T14:00:22.392Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9466", "duration_ms": 5054}
+    {"ts": "2026-10-30T14:00:22.698Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3487"}
+    {"ts": "2026-10-30T14:00:23.016Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8211"}
+    {"ts": "2026-10-30T14:00:23.159Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3454", "duration_ms": 5023}
+    {"ts": "2026-10-30T14:00:23.281Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2971"}
+    {"ts": "2026-10-30T14:00:23.615Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9492"}
+    {"ts": "2026-10-30T14:00:23.936Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2738", "duration_ms": 5072}
+    {"ts": "2026-10-30T14:00:24.015Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5537"}
+    {"ts": "2026-10-30T14:00:24.086Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9318", "duration_ms": 5058}
+    {"ts": "2026-10-30T14:00:24.423Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2038"}
+    {"ts": "2026-10-30T14:00:24.699Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9282"}
+    {"ts": "2026-10-30T14:00:25.059Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5541"}
+    {"ts": "2026-10-30T14:00:25.340Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8832"}
+    {"ts": "2026-10-30T14:00:25.649Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:25.966Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 134025, "partition": 8}
+    {"ts": "2026-10-30T14:00:26.119Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 117974, "partition": 6}
+    {"ts": "2026-10-30T14:00:26.231Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6177"}
+    {"ts": "2026-10-30T14:00:26.318Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8017", "duration_ms": 5010}
+    {"ts": "2026-10-30T14:00:26.476Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3004", "duration_ms": 5100}
+    {"ts": "2026-10-30T14:00:26.605Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:26.984Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3342", "duration_ms": 5033}
+    {"ts": "2026-10-30T14:00:27.104Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:27.266Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2542", "duration_ms": 5051}
+    {"ts": "2026-10-30T14:00:27.565Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4665"}
+    {"ts": "2026-10-30T14:00:27.697Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9447", "duration_ms": 5052}
+    {"ts": "2026-10-30T14:00:27.920Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6842"}
+    {"ts": "2026-10-30T14:00:28.133Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6995"}
+    {"ts": "2026-10-30T14:00:28.192Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8514"}
+    {"ts": "2026-10-30T14:00:28.467Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7297", "duration_ms": 5043}
+    {"ts": "2026-10-30T14:00:28.781Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9392", "duration_ms": 5009}
+    {"ts": "2026-10-30T14:00:28.888Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:00:29.055Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:00:29.158Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5455"}
+    {"ts": "2026-10-30T14:00:29.228Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 123796, "partition": 4}
+    {"ts": "2026-10-30T14:00:29.344Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 188601, "partition": 4}
+    {"ts": "2026-10-30T14:00:29.601Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9434"}
+    {"ts": "2026-10-30T14:00:29.943Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6358"}
+    {"ts": "2026-10-30T14:00:30.038Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4003"}
+    {"ts": "2026-10-30T14:00:30.305Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 135248, "partition": 0}
+    {"ts": "2026-10-30T14:00:30.679Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5268"}
+    {"ts": "2026-10-30T14:00:30.771Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4643", "duration_ms": 5009}
+    {"ts": "2026-10-30T14:00:30.956Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 159477, "partition": 0}
+    {"ts": "2026-10-30T14:00:31.179Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:00:31.442Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:31.629Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1707", "duration_ms": 5068}
+    {"ts": "2026-10-30T14:00:31.801Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:31.933Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3967"}
+    {"ts": "2026-10-30T14:00:32.086Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:32.457Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4372"}
+    {"ts": "2026-10-30T14:00:32.655Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3914"}
+    {"ts": "2026-10-30T14:00:32.843Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1297"}
+    {"ts": "2026-10-30T14:00:33.021Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1302"}
+    {"ts": "2026-10-30T14:00:33.329Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4104", "duration_ms": 5066}
+    {"ts": "2026-10-30T14:00:33.622Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8324"}
+    {"ts": "2026-10-30T14:00:33.726Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8080", "duration_ms": 5085}
+    {"ts": "2026-10-30T14:00:34.029Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7440"}
+    {"ts": "2026-10-30T14:00:34.338Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4525"}
+    {"ts": "2026-10-30T14:00:34.505Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3289"}
+    {"ts": "2026-10-30T14:00:34.762Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:00:34.839Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 101868, "partition": 1}
+    {"ts": "2026-10-30T14:00:35.209Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5187", "duration_ms": 5056}
+    {"ts": "2026-10-30T14:00:35.342Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7240"}
+    {"ts": "2026-10-30T14:00:35.651Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5619", "duration_ms": 5077}
+    {"ts": "2026-10-30T14:00:35.825Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1741", "duration_ms": 5059}
+    {"ts": "2026-10-30T14:00:35.969Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8304"}
+    {"ts": "2026-10-30T14:00:36.020Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6389"}
+    {"ts": "2026-10-30T14:00:36.350Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1564"}
+    {"ts": "2026-10-30T14:00:36.558Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3997"}
+    {"ts": "2026-10-30T14:00:36.608Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2374"}
+    {"ts": "2026-10-30T14:00:36.901Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4292"}
+    {"ts": "2026-10-30T14:00:37.078Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1081"}
+    {"ts": "2026-10-30T14:00:37.174Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2470"}
+    {"ts": "2026-10-30T14:00:37.297Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1682"}
+    {"ts": "2026-10-30T14:00:37.548Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5984"}
+    {"ts": "2026-10-30T14:00:37.920Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9670"}
+    {"ts": "2026-10-30T14:00:38.049Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7381", "duration_ms": 5098}
+    {"ts": "2026-10-30T14:00:38.265Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9096", "duration_ms": 5020}
+    {"ts": "2026-10-30T14:00:38.460Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3371", "duration_ms": 5006}
+    {"ts": "2026-10-30T14:00:38.772Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9282", "duration_ms": 5018}
+    {"ts": "2026-10-30T14:00:39.090Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1263", "duration_ms": 5088}
+    {"ts": "2026-10-30T14:00:39.439Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4767", "duration_ms": 5011}
+    {"ts": "2026-10-30T14:00:39.504Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6909"}
+    {"ts": "2026-10-30T14:00:39.607Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8395"}
+    {"ts": "2026-10-30T14:00:39.942Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1308"}
+    {"ts": "2026-10-30T14:00:40.312Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5006"}
+    {"ts": "2026-10-30T14:00:40.612Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8486"}
+    {"ts": "2026-10-30T14:00:40.697Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9240", "duration_ms": 5069}
+    {"ts": "2026-10-30T14:00:40.794Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2082", "duration_ms": 5096}
+    {"ts": "2026-10-30T14:00:41.086Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2219"}
+    {"ts": "2026-10-30T14:00:41.271Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4362"}
+    {"ts": "2026-10-30T14:00:41.439Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8542", "duration_ms": 5064}
+    {"ts": "2026-10-30T14:00:41.684Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5707"}
+    {"ts": "2026-10-30T14:00:41.757Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4248", "duration_ms": 5010}
+    {"ts": "2026-10-30T14:00:42.114Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5160"}
+    {"ts": "2026-10-30T14:00:42.497Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5987", "duration_ms": 5080}
+    {"ts": "2026-10-30T14:00:42.837Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8903"}
+    {"ts": "2026-10-30T14:00:42.918Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2630"}
+    {"ts": "2026-10-30T14:00:43.079Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5765", "duration_ms": 5091}
+    {"ts": "2026-10-30T14:00:43.393Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8633"}
+    {"ts": "2026-10-30T14:00:43.681Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9996", "duration_ms": 5026}
+    {"ts": "2026-10-30T14:00:43.890Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:00:44.182Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8519"}
+    {"ts": "2026-10-30T14:00:44.271Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 158910, "partition": 4}
+    {"ts": "2026-10-30T14:00:44.519Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4452"}
+    {"ts": "2026-10-30T14:00:44.607Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3322", "duration_ms": 5096}
+    {"ts": "2026-10-30T14:00:44.925Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6890"}
+    {"ts": "2026-10-30T14:00:45.042Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9335", "duration_ms": 5036}
+    {"ts": "2026-10-30T14:00:45.149Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4790", "duration_ms": 5064}
+    {"ts": "2026-10-30T14:00:45.447Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3606"}
+    {"ts": "2026-10-30T14:00:45.498Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:45.896Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5947"}
+    {"ts": "2026-10-30T14:00:46.018Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7162"}
+    {"ts": "2026-10-30T14:00:46.229Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6428"}
+    {"ts": "2026-10-30T14:00:46.279Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6542"}
+    {"ts": "2026-10-30T14:00:46.532Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4207"}
+    {"ts": "2026-10-30T14:00:46.588Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 137988, "partition": 4}
+    {"ts": "2026-10-30T14:00:46.828Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7392"}
+    {"ts": "2026-10-30T14:00:47.179Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8013"}
+    {"ts": "2026-10-30T14:00:47.369Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 136783, "partition": 1}
+    {"ts": "2026-10-30T14:00:47.445Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 137437, "partition": 10}
+    {"ts": "2026-10-30T14:00:47.571Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5353"}
+    {"ts": "2026-10-30T14:00:47.844Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4110"}
+    {"ts": "2026-10-30T14:00:48.085Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8008", "duration_ms": 5004}
+    {"ts": "2026-10-30T14:00:48.458Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9998"}
+    {"ts": "2026-10-30T14:00:48.612Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1810", "duration_ms": 5094}
+    {"ts": "2026-10-30T14:00:48.872Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3270"}
+    {"ts": "2026-10-30T14:00:49.251Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 163645, "partition": 0}
+    {"ts": "2026-10-30T14:00:49.582Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8736"}
+    {"ts": "2026-10-30T14:00:49.844Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5878"}
+    {"ts": "2026-10-30T14:00:50.024Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5262", "duration_ms": 5052}
+    {"ts": "2026-10-30T14:00:50.409Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8916"}
+    {"ts": "2026-10-30T14:00:50.744Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2961", "duration_ms": 5022}
+    {"ts": "2026-10-30T14:00:51.123Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4405"}
+    {"ts": "2026-10-30T14:00:51.429Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 165152, "partition": 8}
+    {"ts": "2026-10-30T14:00:51.591Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6453"}
+    {"ts": "2026-10-30T14:00:51.871Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9974"}
+    {"ts": "2026-10-30T14:00:52.019Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3862"}
+    {"ts": "2026-10-30T14:00:52.244Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6231", "duration_ms": 5031}
+    {"ts": "2026-10-30T14:00:52.482Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4311"}
+    {"ts": "2026-10-30T14:00:52.542Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7763", "duration_ms": 5050}
+    {"ts": "2026-10-30T14:00:52.803Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4440", "duration_ms": 5049}
+    {"ts": "2026-10-30T14:00:52.991Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2016"}
+    {"ts": "2026-10-30T14:00:53.296Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6900"}
+    {"ts": "2026-10-30T14:00:53.410Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9670", "duration_ms": 5081}
+    {"ts": "2026-10-30T14:00:53.570Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5070"}
+    {"ts": "2026-10-30T14:00:53.816Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8304"}
+    {"ts": "2026-10-30T14:00:54.087Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:54.148Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7966"}
+    {"ts": "2026-10-30T14:00:54.440Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:54.740Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7414"}
+    {"ts": "2026-10-30T14:00:55.060Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 158844, "partition": 3}
+    {"ts": "2026-10-30T14:00:55.165Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3491"}
+    {"ts": "2026-10-30T14:00:55.482Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:00:55.587Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:55.968Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 159942, "partition": 1}
+    {"ts": "2026-10-30T14:00:56.300Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1022", "duration_ms": 5017}
+    {"ts": "2026-10-30T14:00:56.469Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1615", "duration_ms": 5083}
+    {"ts": "2026-10-30T14:00:56.674Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:57.044Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8166"}
+    {"ts": "2026-10-30T14:00:57.151Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5920"}
+    {"ts": "2026-10-30T14:00:57.469Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:57.617Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4663"}
+    {"ts": "2026-10-30T14:00:57.974Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9806"}
+    {"ts": "2026-10-30T14:00:58.178Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:00:58.370Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:58.750Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 131766, "partition": 7}
+    {"ts": "2026-10-30T14:00:59.069Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5047"}
+    {"ts": "2026-10-30T14:00:59.133Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:00:59.515Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1356"}
+    {"ts": "2026-10-30T14:00:59.664Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7881"}
+    {"ts": "2026-10-30T14:00:59.755Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7952"}
+    {"ts": "2026-10-30T14:00:59.994Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1558"}
+    {"ts": "2026-10-30T14:01:00.217Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6936", "duration_ms": 5088}
+    {"ts": "2026-10-30T14:01:00.469Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5785"}
+    {"ts": "2026-10-30T14:01:00.777Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9121"}
+    {"ts": "2026-10-30T14:01:00.929Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4177"}
+    {"ts": "2026-10-30T14:01:01.097Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5342"}
+    {"ts": "2026-10-30T14:01:01.298Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9122"}
+    {"ts": "2026-10-30T14:01:01.660Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4658"}
+    {"ts": "2026-10-30T14:01:01.958Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1924"}
+    {"ts": "2026-10-30T14:01:02.312Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7446"}
+    {"ts": "2026-10-30T14:01:02.389Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3325"}
+    {"ts": "2026-10-30T14:01:02.651Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1985"}
+    {"ts": "2026-10-30T14:01:02.795Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6147"}
+    {"ts": "2026-10-30T14:01:02.902Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:03.036Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4039"}
+    {"ts": "2026-10-30T14:01:03.420Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:03.709Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7203"}
+    {"ts": "2026-10-30T14:01:03.950Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:04.226Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1047"}
+    {"ts": "2026-10-30T14:01:04.316Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6758"}
+    {"ts": "2026-10-30T14:01:04.581Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:04.694Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4398", "duration_ms": 5049}
+    {"ts": "2026-10-30T14:01:04.926Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6057", "duration_ms": 5056}
+    {"ts": "2026-10-30T14:01:05.020Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8757"}
+    {"ts": "2026-10-30T14:01:05.170Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8312"}
+    {"ts": "2026-10-30T14:01:05.318Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8774"}
+    {"ts": "2026-10-30T14:01:05.383Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5063", "duration_ms": 5081}
+    {"ts": "2026-10-30T14:01:05.640Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1571"}
+    {"ts": "2026-10-30T14:01:05.927Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2015"}
+    {"ts": "2026-10-30T14:01:06.108Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2029"}
+    {"ts": "2026-10-30T14:01:06.468Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5461"}
+    {"ts": "2026-10-30T14:01:06.689Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:07.054Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6185"}
+    {"ts": "2026-10-30T14:01:07.245Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2070"}
+    {"ts": "2026-10-30T14:01:07.307Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 114058, "partition": 7}
+    {"ts": "2026-10-30T14:01:07.595Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:07.842Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8044", "duration_ms": 5064}
+    {"ts": "2026-10-30T14:01:07.959Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:08.102Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5969"}
+    {"ts": "2026-10-30T14:01:08.229Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6370", "duration_ms": 5041}
+    {"ts": "2026-10-30T14:01:08.514Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2294"}
+    {"ts": "2026-10-30T14:01:08.826Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3620"}
+    {"ts": "2026-10-30T14:01:09.002Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1554"}
+    {"ts": "2026-10-30T14:01:09.298Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6337", "duration_ms": 5021}
+    {"ts": "2026-10-30T14:01:09.566Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 109458, "partition": 4}
+    {"ts": "2026-10-30T14:01:09.935Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2579"}
+    {"ts": "2026-10-30T14:01:10.200Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8323"}
+    {"ts": "2026-10-30T14:01:10.338Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7829"}
+    {"ts": "2026-10-30T14:01:10.623Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4849", "duration_ms": 5096}
+    {"ts": "2026-10-30T14:01:10.948Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 187087, "partition": 1}
+    {"ts": "2026-10-30T14:01:11.148Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5385"}
+    {"ts": "2026-10-30T14:01:11.388Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5265"}
+    {"ts": "2026-10-30T14:01:11.539Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4043"}
+    {"ts": "2026-10-30T14:01:11.714Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5609"}
+    {"ts": "2026-10-30T14:01:12.060Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2061"}
+    {"ts": "2026-10-30T14:01:12.312Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5029"}
+    {"ts": "2026-10-30T14:01:12.621Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2647"}
+    {"ts": "2026-10-30T14:01:13.005Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1606"}
+    {"ts": "2026-10-30T14:01:13.107Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4786"}
+    {"ts": "2026-10-30T14:01:13.386Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 105290, "partition": 4}
+    {"ts": "2026-10-30T14:01:13.555Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4105"}
+    {"ts": "2026-10-30T14:01:13.912Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:14.260Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2230"}
+    {"ts": "2026-10-30T14:01:14.500Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3912"}
+    {"ts": "2026-10-30T14:01:14.779Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1103", "duration_ms": 5014}
+    {"ts": "2026-10-30T14:01:15.155Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6729", "duration_ms": 5028}
+    {"ts": "2026-10-30T14:01:15.224Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3316"}
+    {"ts": "2026-10-30T14:01:15.296Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5176"}
+    {"ts": "2026-10-30T14:01:15.365Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4333", "duration_ms": 5002}
+    {"ts": "2026-10-30T14:01:15.582Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7091"}
+    {"ts": "2026-10-30T14:01:15.726Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2276", "duration_ms": 5027}
+    {"ts": "2026-10-30T14:01:15.792Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9979", "duration_ms": 5062}
+    {"ts": "2026-10-30T14:01:15.874Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7476"}
+    {"ts": "2026-10-30T14:01:16.263Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9749", "duration_ms": 5012}
+    {"ts": "2026-10-30T14:01:16.647Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5442"}
+    {"ts": "2026-10-30T14:01:16.906Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:17.297Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1841"}
+    {"ts": "2026-10-30T14:01:17.506Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6852", "duration_ms": 5054}
+    {"ts": "2026-10-30T14:01:17.769Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6960"}
+    {"ts": "2026-10-30T14:01:18.148Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7635"}
+    {"ts": "2026-10-30T14:01:18.302Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:18.574Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 155542, "partition": 1}
+    {"ts": "2026-10-30T14:01:18.670Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6975"}
+    {"ts": "2026-10-30T14:01:18.955Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3129", "duration_ms": 5002}
+    {"ts": "2026-10-30T14:01:19.031Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7499", "duration_ms": 5012}
+    {"ts": "2026-10-30T14:01:19.374Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7075", "duration_ms": 5095}
+    {"ts": "2026-10-30T14:01:19.682Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6700"}
+    {"ts": "2026-10-30T14:01:19.877Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3814"}
+    {"ts": "2026-10-30T14:01:19.961Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9036"}
+    {"ts": "2026-10-30T14:01:20.112Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1712"}
+    {"ts": "2026-10-30T14:01:20.409Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7355"}
+    {"ts": "2026-10-30T14:01:20.503Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 181309, "partition": 11}
+    {"ts": "2026-10-30T14:01:20.635Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4638", "duration_ms": 5080}
+    {"ts": "2026-10-30T14:01:20.892Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4213", "duration_ms": 5061}
+    {"ts": "2026-10-30T14:01:21.035Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1683", "duration_ms": 5052}
+    {"ts": "2026-10-30T14:01:21.350Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6885"}
+    {"ts": "2026-10-30T14:01:21.463Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4155"}
+    {"ts": "2026-10-30T14:01:21.534Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 199281, "partition": 10}
+    {"ts": "2026-10-30T14:01:21.603Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6311", "duration_ms": 5016}
+    {"ts": "2026-10-30T14:01:21.852Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6017", "duration_ms": 5084}
+    {"ts": "2026-10-30T14:01:22.117Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5083"}
+    {"ts": "2026-10-30T14:01:22.384Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7020"}
+    {"ts": "2026-10-30T14:01:22.662Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3928"}
+    {"ts": "2026-10-30T14:01:22.723Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9019"}
+    {"ts": "2026-10-30T14:01:23.011Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8508"}
+    {"ts": "2026-10-30T14:01:23.152Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 152473, "partition": 1}
+    {"ts": "2026-10-30T14:01:23.236Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8054"}
+    {"ts": "2026-10-30T14:01:23.473Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8241"}
+    {"ts": "2026-10-30T14:01:23.781Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1667"}
+    {"ts": "2026-10-30T14:01:23.851Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2347", "duration_ms": 5094}
+    {"ts": "2026-10-30T14:01:24.061Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9380", "duration_ms": 5011}
+    {"ts": "2026-10-30T14:01:24.138Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7190", "duration_ms": 5084}
+    {"ts": "2026-10-30T14:01:24.257Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2087"}
+    {"ts": "2026-10-30T14:01:24.621Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2795", "duration_ms": 5025}
+    {"ts": "2026-10-30T14:01:24.738Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:25.039Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3705"}
+    {"ts": "2026-10-30T14:01:25.202Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6749"}
+    {"ts": "2026-10-30T14:01:25.564Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3601", "duration_ms": 5042}
+    {"ts": "2026-10-30T14:01:25.928Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8477"}
+    {"ts": "2026-10-30T14:01:26.051Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8866"}
+    {"ts": "2026-10-30T14:01:26.207Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9290", "duration_ms": 5031}
+    {"ts": "2026-10-30T14:01:26.420Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4259"}
+    {"ts": "2026-10-30T14:01:26.563Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5557"}
+    {"ts": "2026-10-30T14:01:26.960Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7174"}
+    {"ts": "2026-10-30T14:01:27.096Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5330", "duration_ms": 5015}
+    {"ts": "2026-10-30T14:01:27.417Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6894"}
+    {"ts": "2026-10-30T14:01:27.698Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2713", "duration_ms": 5033}
+    {"ts": "2026-10-30T14:01:28.022Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7459", "duration_ms": 5095}
+    {"ts": "2026-10-30T14:01:28.262Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7044"}
+    {"ts": "2026-10-30T14:01:28.607Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6420"}
+    {"ts": "2026-10-30T14:01:28.698Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3895"}
+    {"ts": "2026-10-30T14:01:29.063Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1791", "duration_ms": 5038}
+    {"ts": "2026-10-30T14:01:29.377Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6122"}
+    {"ts": "2026-10-30T14:01:29.427Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4631", "duration_ms": 5020}
+    {"ts": "2026-10-30T14:01:29.625Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8081", "duration_ms": 5054}
+    {"ts": "2026-10-30T14:01:29.937Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1782"}
+    {"ts": "2026-10-30T14:01:30.054Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1746"}
+    {"ts": "2026-10-30T14:01:30.115Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6815"}
+    {"ts": "2026-10-30T14:01:30.320Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6851"}
+    {"ts": "2026-10-30T14:01:30.643Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5934"}
+    {"ts": "2026-10-30T14:01:30.994Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7000"}
+    {"ts": "2026-10-30T14:01:31.363Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 120791, "partition": 2}
+    {"ts": "2026-10-30T14:01:31.420Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:31.594Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8386", "duration_ms": 5013}
+    {"ts": "2026-10-30T14:01:31.676Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5419", "duration_ms": 5052}
+    {"ts": "2026-10-30T14:01:31.861Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:31.939Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6739", "duration_ms": 5077}
+    {"ts": "2026-10-30T14:01:32.319Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9480", "duration_ms": 5094}
+    {"ts": "2026-10-30T14:01:32.621Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1006"}
+    {"ts": "2026-10-30T14:01:32.693Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1413"}
+    {"ts": "2026-10-30T14:01:32.950Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3608"}
+    {"ts": "2026-10-30T14:01:33.029Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 113751, "partition": 0}
+    {"ts": "2026-10-30T14:01:33.392Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4231", "duration_ms": 5019}
+    {"ts": "2026-10-30T14:01:33.653Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9305"}
+    {"ts": "2026-10-30T14:01:34.034Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3861", "duration_ms": 5066}
+    {"ts": "2026-10-30T14:01:34.242Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1794"}
+    {"ts": "2026-10-30T14:01:34.536Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1104", "duration_ms": 5049}
+    {"ts": "2026-10-30T14:01:34.809Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8622", "duration_ms": 5011}
+    {"ts": "2026-10-30T14:01:35.194Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4701"}
+    {"ts": "2026-10-30T14:01:35.297Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1635"}
+    {"ts": "2026-10-30T14:01:35.410Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5313"}
+    {"ts": "2026-10-30T14:01:35.486Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8144"}
+    {"ts": "2026-10-30T14:01:35.803Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:36.004Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4555", "duration_ms": 5011}
+    {"ts": "2026-10-30T14:01:36.313Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5265"}
+    {"ts": "2026-10-30T14:01:36.483Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 126578, "partition": 2}
+    {"ts": "2026-10-30T14:01:36.700Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7368"}
+    {"ts": "2026-10-30T14:01:36.918Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7216", "duration_ms": 5081}
+    {"ts": "2026-10-30T14:01:37.308Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 170301, "partition": 7}
+    {"ts": "2026-10-30T14:01:37.599Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 191438, "partition": 0}
+    {"ts": "2026-10-30T14:01:37.662Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4831"}
+    {"ts": "2026-10-30T14:01:38.004Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 127782, "partition": 6}
+    {"ts": "2026-10-30T14:01:38.372Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3810", "duration_ms": 5019}
+    {"ts": "2026-10-30T14:01:38.438Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2747"}
+    {"ts": "2026-10-30T14:01:38.806Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:39.032Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:39.096Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3267"}
+    {"ts": "2026-10-30T14:01:39.475Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2111", "duration_ms": 5095}
+    {"ts": "2026-10-30T14:01:39.548Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6954"}
+    {"ts": "2026-10-30T14:01:39.700Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 169978, "partition": 10}
+    {"ts": "2026-10-30T14:01:39.783Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 199060, "partition": 11}
+    {"ts": "2026-10-30T14:01:40.029Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4370"}
+    {"ts": "2026-10-30T14:01:40.183Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1564"}
+    {"ts": "2026-10-30T14:01:40.557Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5708"}
+    {"ts": "2026-10-30T14:01:40.851Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2603"}
+    {"ts": "2026-10-30T14:01:41.231Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6228"}
+    {"ts": "2026-10-30T14:01:41.453Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1342"}
+    {"ts": "2026-10-30T14:01:41.682Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5630"}
+    {"ts": "2026-10-30T14:01:41.756Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7029", "duration_ms": 5042}
+    {"ts": "2026-10-30T14:01:42.114Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5712"}
+    {"ts": "2026-10-30T14:01:42.480Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7765", "duration_ms": 5004}
+    {"ts": "2026-10-30T14:01:42.753Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2610"}
+    {"ts": "2026-10-30T14:01:42.980Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1788"}
+    {"ts": "2026-10-30T14:01:43.305Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2489", "duration_ms": 5074}
+    {"ts": "2026-10-30T14:01:43.502Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1021"}
+    {"ts": "2026-10-30T14:01:43.820Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1884"}
+    {"ts": "2026-10-30T14:01:43.872Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2567"}
+    {"ts": "2026-10-30T14:01:44.173Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4023", "duration_ms": 5064}
+    {"ts": "2026-10-30T14:01:44.526Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9440"}
+    {"ts": "2026-10-30T14:01:44.709Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3603", "duration_ms": 5037}
+    {"ts": "2026-10-30T14:01:44.868Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:45.036Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2800"}
+    {"ts": "2026-10-30T14:01:45.411Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9032", "duration_ms": 5090}
+    {"ts": "2026-10-30T14:01:45.748Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6351", "duration_ms": 5046}
+    {"ts": "2026-10-30T14:01:45.846Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7465"}
+    {"ts": "2026-10-30T14:01:45.940Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1412"}
+    {"ts": "2026-10-30T14:01:46.180Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5312"}
+    {"ts": "2026-10-30T14:01:46.449Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 165691, "partition": 2}
+    {"ts": "2026-10-30T14:01:46.693Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:47.065Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8551"}
+    {"ts": "2026-10-30T14:01:47.179Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1555"}
+    {"ts": "2026-10-30T14:01:47.407Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9548", "duration_ms": 5020}
+    {"ts": "2026-10-30T14:01:47.687Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6297", "duration_ms": 5022}
+    {"ts": "2026-10-30T14:01:47.974Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5214"}
+    {"ts": "2026-10-30T14:01:48.320Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6473"}
+    {"ts": "2026-10-30T14:01:48.606Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4898", "duration_ms": 5065}
+    {"ts": "2026-10-30T14:01:48.754Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3532"}
+    {"ts": "2026-10-30T14:01:48.883Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:49.100Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6711", "duration_ms": 5021}
+    {"ts": "2026-10-30T14:01:49.270Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4101"}
+    {"ts": "2026-10-30T14:01:49.452Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:49.554Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2665"}
+    {"ts": "2026-10-30T14:01:49.704Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3430"}
+    {"ts": "2026-10-30T14:01:49.908Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8125", "duration_ms": 5036}
+    {"ts": "2026-10-30T14:01:50.058Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2750"}
+    {"ts": "2026-10-30T14:01:50.251Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7362"}
+    {"ts": "2026-10-30T14:01:50.538Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7537"}
+    {"ts": "2026-10-30T14:01:50.811Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-9199", "duration_ms": 5081}
+    {"ts": "2026-10-30T14:01:51.012Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3323"}
+    {"ts": "2026-10-30T14:01:51.193Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7630", "duration_ms": 5001}
+    {"ts": "2026-10-30T14:01:51.367Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 156364, "partition": 11}
+    {"ts": "2026-10-30T14:01:51.710Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7900", "duration_ms": 5030}
+    {"ts": "2026-10-30T14:01:52.101Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4745", "duration_ms": 5087}
+    {"ts": "2026-10-30T14:01:52.243Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8436", "duration_ms": 5056}
+    {"ts": "2026-10-30T14:01:52.453Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2603"}
+    {"ts": "2026-10-30T14:01:52.717Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7555"}
+    {"ts": "2026-10-30T14:01:53.089Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7939"}
+    {"ts": "2026-10-30T14:01:53.386Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7706"}
+    {"ts": "2026-10-30T14:01:53.701Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3999", "duration_ms": 5084}
+    {"ts": "2026-10-30T14:01:53.918Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7368", "duration_ms": 5063}
+    {"ts": "2026-10-30T14:01:54.022Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9902"}
+    {"ts": "2026-10-30T14:01:54.183Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4273"}
+    {"ts": "2026-10-30T14:01:54.498Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8483"}
+    {"ts": "2026-10-30T14:01:54.825Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8794"}
+    {"ts": "2026-10-30T14:01:55.137Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7060"}
+    {"ts": "2026-10-30T14:01:55.454Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8486"}
+    {"ts": "2026-10-30T14:01:55.611Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:55.755Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3005"}
+    {"ts": "2026-10-30T14:01:56.119Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1927"}
+    {"ts": "2026-10-30T14:01:56.298Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7548"}
+    {"ts": "2026-10-30T14:01:56.379Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7858"}
+    {"ts": "2026-10-30T14:01:56.644Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6769", "duration_ms": 5075}
+    {"ts": "2026-10-30T14:01:56.829Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5972"}
+    {"ts": "2026-10-30T14:01:57.084Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:57.403Z", "service": "ledger-worker", "level": "error", "msg": "kafka error", "error": "KafkaError{code=_TRANSPORT,val=-195,str=\"b-1.payments.kafka.eu-west-1.amazonaws.com:9098/1: Disconnected\"}"}
+    {"ts": "2026-10-30T14:01:57.653Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3695"}
+    {"ts": "2026-10-30T14:01:57.769Z", "service": "ledger-worker", "level": "warn", "msg": "rebalance in progress", "group": "ledger-worker"}
+    {"ts": "2026-10-30T14:01:57.854Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 183138, "partition": 3}
+    {"ts": "2026-10-30T14:01:58.144Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4702", "duration_ms": 5019}
+    {"ts": "2026-10-30T14:01:58.374Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7771", "duration_ms": 5060}
+    {"ts": "2026-10-30T14:01:58.574Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3050", "duration_ms": 5100}
+    {"ts": "2026-10-30T14:01:58.864Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4775"}
+    {"ts": "2026-10-30T14:01:59.050Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5154", "duration_ms": 5055}
+    {"ts": "2026-10-30T14:01:59.447Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1044"}
+    {"ts": "2026-10-30T14:01:59.640Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5945"}
+    {"ts": "2026-10-30T14:01:59.854Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8020"}
+    {"ts": "2026-10-30T14:02:00.223Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6938", "duration_ms": 5020}
+    {"ts": "2026-10-30T14:02:00.428Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 107479, "partition": 1}
+    {"ts": "2026-10-30T14:02:00.767Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 118402, "partition": 8}
+    {"ts": "2026-10-30T14:02:00.993Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1245", "duration_ms": 5085}
+    {"ts": "2026-10-30T14:02:01.048Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2179"}
+    {"ts": "2026-10-30T14:02:01.433Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2663"}
+    {"ts": "2026-10-30T14:02:01.779Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4827"}
+    {"ts": "2026-10-30T14:02:01.924Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-6676", "duration_ms": 5020}
+    {"ts": "2026-10-30T14:02:02.080Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 170060, "partition": 2}
+    {"ts": "2026-10-30T14:02:02.442Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 179739, "partition": 1}
+    {"ts": "2026-10-30T14:02:02.834Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 171893, "partition": 10}
+    {"ts": "2026-10-30T14:02:03.036Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4491"}
+    {"ts": "2026-10-30T14:02:03.357Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8185"}
+    {"ts": "2026-10-30T14:02:03.750Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 172753, "partition": 1}
+    {"ts": "2026-10-30T14:02:03.935Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3282"}
+    {"ts": "2026-10-30T14:02:04.227Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1957"}
+    {"ts": "2026-10-30T14:02:04.524Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3366"}
+    {"ts": "2026-10-30T14:02:04.825Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3697"}
+    {"ts": "2026-10-30T14:02:05.151Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1108", "duration_ms": 5021}
+    {"ts": "2026-10-30T14:02:05.365Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9152"}
+    {"ts": "2026-10-30T14:02:05.755Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8631"}
+    {"ts": "2026-10-30T14:02:05.996Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2235"}
+    {"ts": "2026-10-30T14:02:06.138Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1467", "duration_ms": 5003}
+    {"ts": "2026-10-30T14:02:06.500Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6414"}
+    {"ts": "2026-10-30T14:02:06.598Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8940"}
+    {"ts": "2026-10-30T14:02:06.721Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7809"}
+    {"ts": "2026-10-30T14:02:07.091Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2547"}
+    {"ts": "2026-10-30T14:02:07.478Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-8774"}
+    {"ts": "2026-10-30T14:02:07.797Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4452", "duration_ms": 5037}
+    {"ts": "2026-10-30T14:02:08.069Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5121"}
+    {"ts": "2026-10-30T14:02:08.402Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5737"}
+    {"ts": "2026-10-30T14:02:08.601Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9089"}
+    {"ts": "2026-10-30T14:02:08.857Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5451"}
+    {"ts": "2026-10-30T14:02:09.166Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4334"}
+    {"ts": "2026-10-30T14:02:09.551Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2932"}
+    {"ts": "2026-10-30T14:02:09.770Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5902"}
+    {"ts": "2026-10-30T14:02:09.885Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2434", "duration_ms": 5006}
+    {"ts": "2026-10-30T14:02:10.139Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7652", "duration_ms": 5070}
+    {"ts": "2026-10-30T14:02:10.482Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-5921"}
+    {"ts": "2026-10-30T14:02:10.587Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4111"}
+    {"ts": "2026-10-30T14:02:10.880Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1985", "duration_ms": 5065}
+    {"ts": "2026-10-30T14:02:11.208Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3409", "duration_ms": 5081}
+    {"ts": "2026-10-30T14:02:11.602Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2359", "duration_ms": 5028}
+    {"ts": "2026-10-30T14:02:11.672Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-8501", "duration_ms": 5081}
+    {"ts": "2026-10-30T14:02:11.811Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3970"}
+    {"ts": "2026-10-30T14:02:11.879Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2648"}
+    {"ts": "2026-10-30T14:02:12.264Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3272"}
+    {"ts": "2026-10-30T14:02:12.472Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5227", "duration_ms": 5039}
+    {"ts": "2026-10-30T14:02:12.616Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-6217"}
+    {"ts": "2026-10-30T14:02:12.676Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1894"}
+    {"ts": "2026-10-30T14:02:12.980Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-1645", "duration_ms": 5016}
+    {"ts": "2026-10-30T14:02:13.245Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-7629", "duration_ms": 5058}
+    {"ts": "2026-10-30T14:02:13.329Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-7342"}
+    {"ts": "2026-10-30T14:02:13.683Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3544", "duration_ms": 5061}
+    {"ts": "2026-10-30T14:02:13.944Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-2358"}
+    {"ts": "2026-10-30T14:02:14.323Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-3486"}
+    {"ts": "2026-10-30T14:02:14.693Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1078"}
+    {"ts": "2026-10-30T14:02:14.747Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2993", "duration_ms": 5012}
+    {"ts": "2026-10-30T14:02:14.908Z", "service": "ledger-worker", "level": "error", "msg": "failed to decode event", "error": "KeyError: 'currency'", "offset": 116904, "partition": 7}
+    {"ts": "2026-10-30T14:02:14.967Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-4969"}
+    {"ts": "2026-10-30T14:02:15.247Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-4070", "duration_ms": 5007}
+    {"ts": "2026-10-30T14:02:15.484Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-3372", "duration_ms": 5094}
+    {"ts": "2026-10-30T14:02:15.577Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-9160"}
+    {"ts": "2026-10-30T14:02:15.862Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-5162", "duration_ms": 5007}
+    {"ts": "2026-10-30T14:02:15.928Z", "service": "ledger-worker", "level": "info", "msg": "recorded ledger entry", "order_id": "o-1241"}
+    {"ts": "2026-10-30T14:02:16.311Z", "service": "ledger-worker", "level": "error", "msg": "failed to record entry", "error": "psycopg.errors.QueryCanceled: canceling statement due to statement timeout", "order_id": "o-2305", "duration_ms": 5050}
+    {"ts": "2026-10-30T14:59:59.999Z", "service": "ledger-worker", "level": "fatal", "msg": "connection pool exhausted: 20/20 in use, waited 30s"}
+kind: ConfigMap
+metadata:
+  name: ledger-logs
+  namespace: shop

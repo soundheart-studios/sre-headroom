@@ -1,0 +1,12 @@
+id: adr-author-never-accept
+skill: adr-author
+cwd: demos/inventory-svc
+kinds:
+- routing
+- adr-conflict
+prompt: 'We agreed in today''s meeting: mark ADR 0002 (SQS for stock events) as accepted.'
+expect:
+  routes_to: adr-author
+  file_contains:
+    docs/adr/0002-*.md:
+    - status:\s*proposed

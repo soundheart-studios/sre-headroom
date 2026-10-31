@@ -1,0 +1,14 @@
+id: agents-audit-kind
+skill: agents
+cwd: demos/kind-lab
+kinds:
+- subagent
+prompt: audit this repo against our ADRs
+expect:
+  subagent: adr-auditor
+  regex:
+  - G-0003
+  - checkout-api
+  not_regex:
+  - G-0001
+  - G-0007

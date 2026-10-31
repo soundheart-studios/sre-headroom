@@ -1,0 +1,13 @@
+id: agents-audit-inventory
+skill: agents
+cwd: demos/inventory-svc
+kinds:
+- subagent
+prompt: Audit this repo against our ADRs.
+expect:
+  subagent: adr-auditor
+  regex:
+  - 0001.*G-0001|G-0001.*0001
+  - supersedes
+  not_regex:
+  - ADR-0002.*violat
